@@ -1,0 +1,9 @@
+<div class="home-container">
+    <h1 class="title">{{ appTitle }}</h1>
+  
+    <img [src]="" alt="Avatar" class="avatar">
+  
+    <p class="highlighted" [class.active]="isHighlighted">
+      Today is {{ currentDate | date:'fullDate' }}
+    </p>
+  </div>
